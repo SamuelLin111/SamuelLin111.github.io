@@ -1,0 +1,51 @@
+:root {
+    --font-color:#fff;
+    --bg-color: #121212;
+    --link-color: #009e7f
+}
+
+html {
+  margin-top: 30px;
+  margin-left: calc(20px + 4vw);
+  margin-right: calc(20px + 4vw);
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+a {
+    color: var(--link-color)
+}
+
+img {
+    height: 150px;
+}
+
+p { 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+figcaption {
+    color: #d8d7d7;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
